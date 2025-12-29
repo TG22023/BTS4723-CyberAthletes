@@ -1,2 +1,4 @@
-# BTS4723-CyberAthletes
-Repository for BTS4723 Software Engineering Group Project
+# Software Requirements Specification (SRS)
+**Project:** Athlete Management System
+
+**Team:** CyberAthletes
