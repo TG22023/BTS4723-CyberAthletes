@@ -25,3 +25,15 @@ The system must provide the following functions to support the academy's daily o
 10. **FR-10 (Tournament Entry):** The system shall allow the Admin to record details of external tournaments, including Tournament Name, Host Venue, and Start/End Dates.
 11. **FR-11 (Match Results):** The system shall allow the Coach to submit the final score of a match, including opponent details and specific player contributions (Goals, Assists, Cards).
 12. **FR-12 (Report Generation):** The system shall allow the Admin to generate and export a "Season Summary Report" (PDF format) listing all matches played and the academy's win/loss record.
+
+---
+
+## 2. Non-Functional Requirements (NFR)
+The system must adhere to the following quality attributes to ensure usability, security, and reliability.
+
+1.  **NFR-01 (Performance):** The system shall load the player dashboard and retrieve performance charts within **2 seconds** under normal network conditions (4G or Wi-Fi).
+2.  **NFR-02 (Security):** All user passwords must be hashed using industry-standard encryption (e.g., Bcrypt) before being stored in the database.
+3.  **NFR-03 (Availability):** The system shall be available 99.9% of the time during business hours (8:00 AM – 10:00 PM) to ensure coaches can record data immediately after sessions.
+4.  **NFR-04 (Scalability):** The database design shall support the storage of records for up to **1,000 active players** and **5 years of historical data** without performance degradation.
+5.  **NFR-05 (Usability):** The user interface shall be responsive and fully functional on mobile devices (smartphones and tablets) to allow coaches to input data directly from the field.
+6.  **NFR-06 (Data Integrity):** The system must perform automated daily backups of the database to a secure cloud storage location to prevent data loss in case of server failure.
