@@ -1,0 +1,37 @@
+// METHOD: POST 
+// ENDPOINT: https://api.cyberathlete.com/v1/matches/results
+
+//BODY (JSON):
+{
+  "tournamentID": 501,
+  "matchDate": "2025-11-15",
+  "opponentName": "Kuantan Kickers", // lol
+  "goalsFor": 2,
+  "goalsAgainst": 1,
+  "matchStats": [
+    {
+      "playerID": 1001,
+      "minutesPlayed": 90,
+      "goals": 1,
+      "assists": 0
+    },
+    {
+      "playerID": 1004,
+      "minutesPlayed": 45,
+      "goals": 1,
+      "assists": 1
+    }
+  ]
+}
+
+// RESPONSE CODE: 200
+// RESPONSE BODY (JSON):
+{
+  "status": "success",
+  "message": "Match result recorded successfully.",
+  "data": {
+    "resultID": 9001,
+    "timestamp": "2025-11-15T18:30:00Z",
+    "updatedStanding": "2nd Place"
+  }
+}
