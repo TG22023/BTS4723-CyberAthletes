@@ -5,7 +5,7 @@
 {
   "tournamentID": 501,
   "matchDate": "2025-11-15",
-  "opponentName": "Kuantan Kickers", // lol
+  "opponentName": "Kuantan Kickers",
   "goalsFor": 2,
   "goalsAgainst": 1,
   "matchStats": [
