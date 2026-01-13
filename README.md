@@ -1,5 +1,5 @@
 # Software Requirements Specification (SRS)
-**Project:** Athlete Management System
+**Project:** SportSphere ( Athlete Management System )
 
 **Team:** CyberAthletes
 
